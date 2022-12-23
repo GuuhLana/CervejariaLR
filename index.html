@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="CSS/reset.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="CSS/Style.css">
+	<link rel="shortcut icon" href="beer.png">
+	<title>Cervejaria LR</title>
+</head>
+<body>
+	
+	<header class="fundo">
+		<ul class="nav justify-content-center">
+			<li class="nav-item">
+			  <a class="nav-link active" id="nav-texto" href="index.html">Cervejaria LR</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" id="nav-texto" href="#cervejas">Cervejas</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" id="nav-texto" href="#form">Faça seu pedido</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" id="nav-texto" href="#sobre-nos">Sobre Nós</a>
+			</li>
+		  </ul>
+	</header>
+
+	<main id="main">
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" id="carrosel">
+			<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+
+			</ol>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img class="d-block w-100" id="imagem" src="CSS/imagens/logo-becks.jpg" alt="Primeiro slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" id="imagem" src="CSS/imagens/logo-stella.jpg" alt="Segundo slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" id="imagem" src="CSS/imagens/logo-heineken.png" alt="Terceiro slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" id="imagem" src="CSS/imagens/logo-bohemia1.jpg" alt="Quarto slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" id="imagem" src="CSS/imagens/logo-brahma.jpg" alt="Quinto slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" id="imagem" src="CSS/imagens/logo-skol.png" alt="Sexto slide">
+			  </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Anterior</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Proximo</span>
+			</a>
+		  </div>
+
+		  <div id="cervejas" class="card-group">
+
+			<div class="card" id="border"> 
+				<div class="card-header" style="text-align: center; font-weight: bold">Beck's</div>
+				<img class="card-img-top" id="imagem-card" src="CSS/imagens/Becks.jpg" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">A Beck's é a quinta cerveja mais bebida da Alemanha e patrocina o clube de futebol alemão Sportverein Werder Bremen desde 1983.</p>
+					<p class="card-text"><small class="text-muted">Lançada em 1873</small></p>
+				</div>
+			</div>
+
+			<div class="card" id="border">
+				<div class="card-header" style="text-align: center; font-weight: bold">Stella Artois</div>
+				<img class="card-img-top" id="imagem-card" src="CSS/imagens/Stella.jpg" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Fabricada desde 1926 na cidade de Leuven, no interior da Bélgica, berço de algumas dos melhores mestres cervejeiros do mundo, a Stella Artois é uma cerveja premium, de sabor balanceado e marcante.</p>
+					<p class="card-text"><small class="text-muted">Lançada em 1926</small></p>
+				</div>
+			</div>
+
+			<div class="card" id="border">
+				<div class="card-header" style="text-align: center; font-weight: bold">Heineken</div>
+				<img class="card-img-top" id="imagem-card" src="CSS/imagens/Heineken.jpg" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Um diferencial da marca é o fato de ser extremamente global, sendo a cerveja presente no maior número de países no mundo.</p>
+					<p class="card-text"><small class="text-muted">Lançada em 1864</small></p>
+				</div>
+			</div>
+
+			<div class="card" id="border">
+				<div class="card-header" style="text-align: center; font-weight: bold">Bohemia</div>
+				<img class="card-img-top" id="imagem-card" src="CSS/imagens/Bohemia.jpg" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Clara, leve e muito refrescante: uma cerveja para todos os momentos. Produzida com malte 100% importado e lúpulo Saaz, da República Tcheca, a nossa Pilsen, é uma das primeiras cervejas do Brasil.</p>
+					<p class="card-text"><small class="text-muted">Lançada em 1853</small></p>
+				</div>
+			</div>
+
+
+			<div class="card" id="border">
+				<div class="card-header" style="text-align: center; font-weight: bold;">Brahma</div>
+				<img class="card-img-top" id="imagem-card" src="CSS/imagens/Brahma.jpg" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">A cerveja Brahma é a segunda marca de cerveja mais consumida no Brasil, e a nona cerveja mais consumida em todo o mundo. No Brasil, é considerada a 3ª marca mais valiosa do país, avaliada em 4,3 bilhões de dólares estadunidenses.</p>
+					<p class="card-text"><small class="text-muted">Lançada em 1888</small></p>
+				</div>
+			</div>
+
+			<div class="card" id="border">
+				<div class="card-header" style="text-align: center; font-weight: bold">Skol</div>
+				<img class="card-img-top" id="imagem-card" src="CSS/imagens/Skol.jpg" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text"> Cerveja de propriedade da empresa dinamarquesa Carlsberg, com licença para ser fabricada no Brasil. Seu nome vem da palavra sueca skål, que significa "tigela"; expressão comum que antecede brindes.</p>
+					<p class="card-text"><small class="text-muted">Lançada em 1959</small></p>
+				</div>
+			</div>
+		  </div>
+
+		<section class="formulario">
+		  <form id="form">
+			<div class="form-row">
+			  <div class="form-group col-md-6">
+				<label for="inputEmail4">Email</label>
+				<input type="email" class="form-control" id="inputEmail4" placeholder="SeuEmailAqui@gmail.com">
+			  </div>
+
+			  <div class="form-group col-md-6">
+				<label for="inputPassword4">Telefone</label>
+				<input type="number" class="form-control" id="inputPassword4" placeholder="(XX)(9XXXX-XXXX)">
+			  </div>
+			</div>
+
+			<div class="form-group">
+			  <label for="inputAddress">Endereço</label>
+			  <input type="text" class="form-control" id="inputAddress" placeholder="Rua Ana de Castro">
+			</div>
+
+			<div class="form-group">
+			  <label for="inputAddress2">Número</label>
+			  <input type="text" class="form-control" id="inputAddress2" placeholder="100">
+			</div>
+
+			<div class="form-row">
+			  <div class="form-group col-md-6">
+				<label for="inputCity">Cidade</label>
+				<input type="text" class="form-control" id="inputCity">
+			  </div>
+
+			  <div class="form-group col-md-4">
+				<label for="inputState">Selecione a cerveja</label>
+				<select id="cerveja" id="inputState" class="form-control">
+				  <option selected disabled>Cervejas</option>
+				  <option id="heineken"> Heineken</option>
+				  <option id="becks"> Beck's</option>
+				  <option id="bohemia"> Bohemia</option>
+				  <option id="stella"> Stella Artois</option>
+				  <option id="skol"> Skol</option>
+				  <option id="brahma"> Brahma</option>
+				</select>
+			  </div>
+
+			  <div class="form-group col-md-2">
+				<label for="inputState">Quantas unidades</label>
+				<select id="quantidade" id="inputState" class="form-control">
+				  <option selected disabled>Unidades</option>
+				  <option id="20"> 20 </option>
+				  <option id="40"> 40 </option>
+				  <option id="60"> 60 </option>
+				  <option id="80"> 80 </option>
+				  <option id="100"> 100 </option>
+				</select>
+			  </div>
+
+			  <div class="form-group col-md-2">
+				<label for="inputZip">CEP</label>
+				<input type="text" class="form-control" id="inputZip">
+			  </div>
+			</div>
+
+			<div class="form-group">
+			  <div class="form-check">
+				<input class="form-check-input" type="checkbox" id="gridCheck">
+				<label class="form-check-label" for="gridCheck">
+				Receber nossas novidades via E-mail
+				</label>
+			  </div>
+			</div>
+
+			<button id="botao-confirmar" type="submit" class="btn btn-primary" style="background-color:#FF8C00;">Confirmar dados</button>
+		  </form>	
+		</section>
+
+		<section class="tabela">
+			<table id="table" class="table table-striped" style="text-align: center;">
+				<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Cerveja</th>
+					<th scope="col">Preço da unidade</th>
+					<th scope="col">Preço a cada 20 unidades</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>Beck's</td>
+					<td>4,50 R$</td>
+					<td>90,00 R$</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>Stella Artois (Long Neck)</td>
+					<td>4,35 R$</td>
+					<td>87,00 R$</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>Heineken</td>
+					<td>4,20 R$</td>
+					<td>84,00 R$</td>
+				</tr>
+				<tr>
+					<th scope="row">4</th>
+					<td>Bohemia</td>
+					<td>3,65 R$</td>
+					<td>73,00 R$</td>
+				</tr>
+				<tr>
+					<th scope="row">5</th>
+					<td>Brahma</td>
+					<td>2,65 R$</td>
+					<td>53,00 R$</td>
+				</tr>
+				<tr>
+					<th scope="row">6</th>
+					<td>Skol</td>
+					<td>2,29 R$</td>
+					<td>56,00 R$</td>
+				</tr>
+
+				</tbody>
+			</table>
+		</section>
+
+		<section id="sobre-nos" class="sobre-nos">
+			<div class="accordion" id="accordionExample">
+				<div class="card">
+				  <div class="card-header" id="headingOne">
+					<h5 class="mb-0">
+					  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: #FF8C00;">
+						Cervejas com os melhores preços
+					  </button>
+					</h5>
+				  </div>
+			  
+				  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+					<div class="card-body">
+					Importante destacar que como uma Cervejaria, temos preços extremamente acessivevis, principalmente pelo fato de termos parcerias diretas com as marcas.
+					</div>
+				  </div>
+				</div>
+				<div class="card">
+				  <div class="card-header" id="headingTwo">
+					<h5 class="mb-0">
+					  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: #FF8C00;">
+						Atendimento elogiado pelos clientes
+					  </button>
+					</h5>
+				  </div>
+				  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					<div class="card-body">
+						O mercado de hoje exige, que além de satisfazer aos anseios do consumidor, é fundamental criar um relacionamento, onde haja confiança, respeito e fidelidade e a Cervejaria LR é ótima nesse quesito.
+					</div>
+				  </div>
+				</div>
+				<div class="card">
+				  <div class="card-header" id="headingThree">
+					<h5 class="mb-0">
+					  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"  style="color: #FF8C00;">
+						Pontualidade nas entregas
+					  </button>
+					</h5>
+				  </div>
+				  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+					<div class="card-body">
+					A falta de pontualidade nas entregas pode ser o fator determinante para a perda de um cliente. Para evitar que isso aconteça, nós da Cervejaria LR contamos com uma equipe extremamente capacitada para evitar os atrasos dos pedidos.
+					</div>
+				  </div>
+				</div>
+			  </div>
+		</section>
+	</main>
+
+	<footer class="rodape">
+		<blockquote class="blockquote text-center">
+			<p class="mb-0" style="color: black;">“A cerveja, se bebida com moderação, torna a pessoa mais dócil, alegra o espírito e promove a saúde” (Thomas Jefferson)</p>
+			<footer class="blockquote-footer" style="font-weight: bold; color: black;">2021 © Gustavo Lana. Todos os direitos reservados.</footer>
+		  </blockquote>
+	</footer>
+
+
+	<script src="JS/forms.js"></script>
+	<script src="JS/calculaPreco.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
